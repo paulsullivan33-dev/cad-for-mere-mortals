@@ -1,0 +1,24 @@
+site_name: CAD for Mere Mortals
+site_description: Plain-language CAD guides — design your own 3D-printable parts.
+site_url: https://paulsullivan33-dev.github.io/cad-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Is CAD?: what-is-cad.md
+  - Thinking in 3D: thinking-in-3d.md
+  - Your First Model: your-first-model.md
+  - Sketches and Constraints: sketches-and-constraints.md
+  - From Sketch to Solid: from-sketch-to-solid.md
+  - OpenSCAD in Depth: openscad-in-depth.md
+  - Measuring and Tolerances: measuring-and-tolerances.md
+  - Designing for FDM: designing-for-fdm.md
+  - "Project: The L-Bracket": the-bracket-project.md
+  - Exporting and Sharing: exporting-and-sharing.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
